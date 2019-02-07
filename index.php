@@ -2,12 +2,12 @@
 
 <head>
 <title>Hello World!</title>
-<title>Hello Placeholder!</title>
 </head>
 
 <body>
 
 <?php echo "Hello World!"; ?>
+<?php echo "Hello Placeholder!"; ?>
 <?php if($_ENV["HOSTNAME"]) {?><h3>My hostname is <?php echo $_ENV["HOSTNAME"]; ?><br /><br />
 
 <?php $links = [];
