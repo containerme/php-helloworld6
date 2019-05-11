@@ -7,7 +7,7 @@
 <body>
 
 <?php echo "Hello World!"; ?>
-<?php echo "Hello Placeholder! 5-3-2019"; ?>
+<?php echo "Hello Placeholder! 24-6-2019"; ?>
 <?php if($_ENV["HOSTNAME"]) {?><h3>My hostname is <?php echo $_ENV["HOSTNAME"]; ?><br /><br />
 
 <?php $links = [];
